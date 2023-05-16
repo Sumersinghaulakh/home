@@ -1,0 +1,193 @@
+/* setting margin and padding value */
+*
+{
+	margin: 0%;
+	padding: 0%;
+}
+/* changing my fonts and background */
+body
+{
+	background: black;
+	font-family: monospace;
+	font-size: 20px;
+}
+/* formatting the menu-bar */
+.menu-bar
+{
+	background: white;
+	text-align: center;
+	width: 100%;
+}
+/* formatting the menu-bar */
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+}
+/* formatting the menu-bar */
+.menu-bar ul li
+{
+	width: 200px;
+	margin: 15px;
+	padding: 15px;
+}
+/* formatting the menu-bar */
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: black;
+}
+/* activating hover-effect */
+.active:hover
+{
+	background: #3377ff;
+	
+}
+/* activating hover-effect */
+.menu-bar ul li:hover
+{
+	background: #3377ff;
+	transition: 0.3s;
+}
+img
+{
+	width: 27px;
+	float: left;
+}
+/* aligning the menu-bar */
+.menu-bar, .fa
+{
+	margin-right: 8px;
+
+}
+/* formatting the sub-menu */
+.sub-menu
+{
+	display: none;
+}
+/* adding a sub-menu with hover-effect */
+.menu-bar ul li:hover .sub-menu
+{
+	display: block;
+	position: absolute;
+	background: #3377ff;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+/* adding a sub-menu with hover-effect */
+.menu-bar ul li:hover .sub-menu ul
+{
+	display: block;
+	margin: 10px;
+}
+/* adding a sub-menu with hover-effect */
+.menu-bar ul li:hover .sub-menu ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu ul li:last-child
+{
+	border-bottom: none;
+}
+/* adding a sub-menu with hover-effect */
+.menu-bar ul li:hover .sub-menu ul li a:hover
+{
+	color: white;
+}
+/* image overlay with text */
+.image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(trauma.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 850px;
+}
+/* aligning the first image */
+.trauma
+{
+	margin-top: 100px;
+	padding-left: 1%;
+	width: 400px;
+}
+/* aligning the first paragraph */
+.paramedics
+{
+	margin-top: 300px;
+	padding-left: 400px;
+	color: white;
+	text-align: center;
+}
+/* changing color of the hr line and aligning it */
+hr
+{
+	margin-top: 400px;
+	height: 1px;
+    background-color: white;
+    border: none;
+}
+/* aligning the second image */
+.combine
+{
+	margin-top: 25px;
+	float: right;
+	padding: 2%;
+	width: 400px;
+}
+/* aligning the second paragraph */
+#civil
+{
+	color: white;
+	margin-top:300px;
+	padding-left: 2%;
+	text-align: center;
+}
+/* aligning the third image */
+.soldier
+{
+	margin-top: 50px;
+	margin-bottom: 0px;
+	padding-left: 1%;
+	width: 400px;
+	height: 800px
+}
+/* aligning the third paragraph */
+.pick_it_up
+{
+	margin-top: 300px;
+	padding-left: 400px;
+	color: white;
+	text-align: center;
+}
+/* coloring the heading*/
+h1
+{
+	color: white;
+}
+/* changing the size and location of the arrow */
+.up
+{
+	width: 30px;
+	margin-top: 600px;
+	padding-left: 400px;
+}
+/* changing W3C icon */
+.W3C
+{
+	width: 55px;
+	margin-top: 600px;
+	float: right;
+}
+/* changing CSS icon */
+.style
+{
+	width: 65px;
+	float: right;
+}

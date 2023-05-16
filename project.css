@@ -1,0 +1,59 @@
+/* setting background to black and body margin and padding to zero */
+body
+{
+	margin: 0;
+	padding: 0;
+	background: black;
+}
+/* setting margin and padding value of the div element */
+.hover_effect
+{
+	margin-bottom: 0;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	padding-left: 30%;
+}
+/* changing font size and color of links */
+a
+{
+	color: white;
+	font-size: 25px
+}
+/* setting margin value of links in the table */
+.hover_effect a
+{
+	margin-right: 23px;
+}
+/* alignment of my logo */
+#Nexs
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%
+}
+/* hover effect */
+.distance:hover
+{
+	background-color: #fcb514;
+	color: black;
+	transition: 0.4s;
+}
+/* removing the underlines of links */
+a
+{
+	text-decoration: none;
+}
+/* changing W3C icon */
+.W3C
+{
+	width: 55px;
+	margin-bottom: -15px;
+}
+/* changing CSS icon */
+.style
+{
+	width: 65px;
+	float: right;
+	margin-top: -6px;
+}

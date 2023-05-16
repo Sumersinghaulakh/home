@@ -1,0 +1,168 @@
+/* setting margin and padding value */
+*
+{
+	margin: 0%;
+	padding: 0%;
+}
+/* changing my fonts and background */
+body
+{
+	background: black;
+	font-family: monospace;
+	font-size: 20px;
+}
+/* formatting the menu-bar */
+.menu-bar
+{
+	background: white;
+	text-align: center;
+	width: 100%;
+}
+/* formatting the menu-bar */
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+}
+/* formatting the menu-bar */
+.menu-bar ul li
+{
+	width: 200px;
+	margin: 15px;
+	padding: 15px;
+}
+/* formatting the menu-bar */
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: black;
+}
+/* activating hover-effect */
+.active:hover
+{
+	background: #3377ff;
+	
+}
+/* activating hover-effect */
+.menu-bar ul li:hover
+{
+	background: #3377ff;
+	transition: 0.3s;
+}
+img
+{
+	width: 27px;
+	float: left;
+}
+/* aligning the menu-bar */
+.menu-bar, .fa
+{
+	margin-right: 8px;
+
+}
+/* formatting the sub-menu */
+.sub-menu
+{
+	display: none;
+}
+/* adding a sub-menu with hover-effect */
+.menu-bar ul li:hover .sub-menu
+{
+	display: block;
+	position: absolute;
+	background: #3377ff;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+/* adding a sub-menu with hover-effect */
+.menu-bar ul li:hover .sub-menu ul
+{
+	display: block;
+	margin: 10px;
+}
+/* adding a sub-menu with hover-effect */
+.menu-bar ul li:hover .sub-menu ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu ul li:last-child
+{
+	border-bottom: none;
+}
+/* adding a sub-menu with hover-effect */
+.menu-bar ul li:hover .sub-menu ul li a:hover
+{
+	color: white;
+}
+/* aligning the first image */
+#Ishimura
+{
+	margin-top: 150px;
+	padding-left:2%;
+	width: 400px;
+}
+/* aligning the first paragraph */
+#start
+{
+	color: white;
+	margin: 200px;
+	padding-left: 400px;
+}
+/* image overlay with text */
+.image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(ishi.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 850px;
+		
+}
+/* changing the color of the header */
+h1
+{
+	color: white;
+}
+/* aligning the second image */
+#Aegis_VII
+{
+	margin-top: 25px;
+	float: right;
+	padding: 2%;
+	width: 400px;
+}
+/* aligning the second paragraph */
+#moving_out
+{
+	color: white;
+	margin-top:400px;
+	padding-left: 3%;
+}
+/* changing the size and location of the arrow */
+.up
+{
+	width: 30px;
+	margin-top: 200px;
+	padding-left: 47%;
+}
+/* changing W3C icon */
+.W3C
+{
+	width: 55px;
+	margin-top: 190px;
+}
+/* changing CSS icon */
+.style
+{
+	width: 65px;
+	float: right;
+	margin-top: 60px;
+
+}
